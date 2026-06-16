@@ -123,7 +123,7 @@ Last updated: 2025-08-04
 > - **SaaS (Software as a Service):** Delivers `fully managed applications over the internet` for productivity and business needs. Example: Microsoft 365, Dynamics 365, Power BI.
 
 
-<img width="550" height="550" alt="image" src="https://github.com/user-attachments/assets/24cff45a-6f9c-4cce-91d4-5dab402a83ef" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/24cff45a-6f9c-4cce-91d4-5dab402a83ef" />
 
 Key foundational components in the traditional cloud service responsibility model: <br/>
 `(On-prem → IaaS → PaaS → SaaS)`
