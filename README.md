@@ -29,6 +29,11 @@ Last updated: 2025-08-04
 
   <img width="1236" height="625" alt="image" src="https://github.com/user-attachments/assets/dc14384e-9f97-48b1-b809-153231993125" />
 
+- [Microsoft Assessments - Browse all](https://learn.microsoft.com/en-us/assessments/browse/?searchterm=&page=1&pagesize=30)
+- [Cloud Governance - Assessments](https://learn.microsoft.com/en-us/assessments/b1891add-7646-4d60-a875-32a4ab26327e/)
+- [Cloud Adoption Strategy Evaluator](https://learn.microsoft.com/en-us/assessments/8fefc6d5-97ac-42b3-8e97-d82701e55bab/)
+- [Strategic Migration Assessment and Readiness Tool](https://learn.microsoft.com/en-us/assessments/Strategic-Migration-Assessment/)
+
 </details>
 
 
