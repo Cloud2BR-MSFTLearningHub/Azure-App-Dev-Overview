@@ -4,7 +4,7 @@ Last updated: 2026-07-27
 
 Reference: [Technology choices for Azure solutions](https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/technology-choices-overview).
 
-![Azure App Dev services overview](https://github.com/user-attachments/assets/0713d101-94ef-40a9-9e55-0a780036ce7a)
+![Azure App Dev services overview](https://github.com/user-attachments/assets/0713d101-94ef-40a9-9e55-0a780036ce7a){ .diagram-standard }
 
 ## Choose a compute service
 
@@ -13,7 +13,7 @@ helps you determine the best option based on whether you are migrating an existi
 workload or building a new application, considering cloud optimization,
 containerization, orchestration needs, and control requirements.
 
-![Choose an Azure compute service decision tree](https://github.com/user-attachments/assets/fb6daaa9-50c2-4e9b-8195-e5f144ac63d2)
+![Choose an Azure compute service decision tree](https://github.com/user-attachments/assets/fb6daaa9-50c2-4e9b-8195-e5f144ac63d2){ .diagram-wide }
 
 Reference: [Choose an Azure compute service](https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree).
 
@@ -67,7 +67,7 @@ This flowchart helps you choose between **AKS**, **Azure Container Apps**, and
 **Azure Functions** by evaluating compute requirements, containerization,
 Kubernetes control, and workload type.
 
-![Choose an Azure compute option for microservices](https://github.com/user-attachments/assets/dff4caed-52d9-429a-88cf-2af7de349906)
+![Choose an Azure compute option for microservices](https://github.com/user-attachments/assets/dff4caed-52d9-429a-88cf-2af7de349906){ .diagram-compact }
 
 Reference: [Choose an Azure compute option for microservices](https://learn.microsoft.com/en-us/azure/architecture/microservices/design/compute-options).
 
@@ -83,7 +83,7 @@ Reference: [Choose an Azure compute option for microservices](https://learn.micr
 These options enable hybrid and edge computing, allowing organizations to run
 Azure services in disconnected, on-premises, or multicloud environments.
 
-![Hybrid solution decision tree](https://github.com/user-attachments/assets/cd933ab9-4085-4bc9-9896-c3b1c59c33c7)
+![Hybrid solution decision tree](https://github.com/user-attachments/assets/cd933ab9-4085-4bc9-9896-c3b1c59c33c7){ .diagram-wide }
 
 Reference: [Hybrid solution decision tree](https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/hybrid-considerations#hybrid-solution-decision-tree).
 
@@ -109,7 +109,7 @@ This is a decision-making guide for selecting the right Azure networking and
 application-delivery service based on whether you host a web application, APIs, or
 need global distribution and performance optimization.
 
-![Choose a load balancing solution decision tree](https://github.com/user-attachments/assets/661872a6-3d85-4542-a226-f27dc496e913)
+![Choose a load balancing solution decision tree](https://github.com/user-attachments/assets/661872a6-3d85-4542-a226-f27dc496e913){ .diagram-wide }
 
 Reference: [Choose a load balancing solution for your scenario](https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview#choose-a-load-balancing-solution-for-your-scenario).
 

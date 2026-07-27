@@ -16,8 +16,22 @@
 .md-typeset a { color: var(--azure-blue); }
 .md-typeset a:hover { color: var(--azure-blue-hover); }
 
-/* Keep large diagrams within the content column */
-.md-typeset img { max-width: 100%; height: auto; }
+/* Keep diagrams readable without letting them dominate the wide content column */
+.md-typeset img { height: auto; max-width: 100%; }
+.md-typeset .diagram-compact,
+.md-typeset .diagram-standard,
+.md-typeset .diagram-wide {
+  display: block;
+  margin: 1rem auto 1.25rem;
+}
+.md-typeset .diagram-compact { width: min(100%, 640px); }
+.md-typeset .diagram-standard { width: min(100%, 760px); }
+.md-typeset .diagram-wide { width: min(100%, 920px); }
+@media screen and (max-width: 44rem) {
+  .md-typeset .diagram-compact,
+  .md-typeset .diagram-standard,
+  .md-typeset .diagram-wide { width: 100%; }
+}
 
 /* Show the last-updated date as a small grey caption under each page title */
 .md-typeset h1 + p {
