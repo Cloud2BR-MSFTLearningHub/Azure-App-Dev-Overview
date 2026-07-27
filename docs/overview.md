@@ -20,6 +20,8 @@ Last updated: 2026-07-27
 
 ## Types of cloud computing
 
+![Types of cloud computing](https://github.com/user-attachments/assets/4088401d-c4ec-4e6d-9236-01a0658a767f)
+
 | Category | Models and details |
 | --- | --- |
 | Deployment models | **Private:** Dedicated infrastructure for one organization; high security and control. **Public:** Services delivered over the internet; shared resources; cost-effective and scalable. **Hybrid:** Combines private and public clouds; enables workload flexibility and optimization. |
@@ -68,8 +70,12 @@ Last updated: 2026-07-27
 
 ## Service responsibility model
 
+![Cloud service responsibility model from on-premises to IaaS, PaaS, and SaaS](https://github.com/user-attachments/assets/24cff45a-6f9c-4cce-91d4-5dab402a83ef)
+
 Key foundational components in the traditional cloud service responsibility model
 move from On-premises to IaaS to PaaS to SaaS.
+
+![The nine layers of the cloud service responsibility model](https://github.com/user-attachments/assets/b4a4134b-c2e1-4d7f-ae19-e38a9448021e)
 
 !!! note
     These nine layers are conceptual, not exhaustive. They represent the major
@@ -125,6 +131,8 @@ move from On-premises to IaaS to PaaS to SaaS.
 
 ## Event, message, stream
 
+![Comparison of event, message, and stream on Azure](https://github.com/user-attachments/assets/c9005aac-1014-41d2-85bc-ae7327b87bf2)
+
 !!! tip
     - **Event (Event Grid):** best for lightweight notifications and reactive architectures.
     - **Message (Service Bus):** use when you need guaranteed delivery, ordering, or transactional integrity.
@@ -139,7 +147,11 @@ move from On-premises to IaaS to PaaS to SaaS.
 
 Reference: [Choose between Azure messaging services - Event Grid, Event Hubs, and Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/compare-messaging-services).
 
+![Data ingestion and processing workflow using Azure services](https://github.com/user-attachments/assets/516b1579-25e8-4d1c-b78e-c4aee6b05f60)
+
 ## Azure App Dev services
+
+![Azure App Dev and integration services](https://github.com/user-attachments/assets/afac1692-a25a-448e-9607-c9b452793ea9)
 
 See the [What to choose](what-to-choose.md) guide for compute, hybrid, and
 networking decision trees.
