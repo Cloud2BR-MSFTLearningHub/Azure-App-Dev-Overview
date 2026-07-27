@@ -4,7 +4,7 @@ Last updated: 2026-07-27
 
 Reference: [Technology choices for Azure solutions](https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/technology-choices-overview).
 
-![Azure App Dev services overview](https://github.com/user-attachments/assets/0713d101-94ef-40a9-9e55-0a780036ce7a){ .diagram-standard }
+![Azure App Dev services overview](https://github.com/user-attachments/assets/0713d101-94ef-40a9-9e55-0a780036ce7a){ .diagram-small }
 
 ## Choose a compute service
 

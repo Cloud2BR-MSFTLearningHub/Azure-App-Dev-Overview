@@ -19,16 +19,19 @@
 /* Keep diagrams readable without letting them dominate the wide content column */
 .md-typeset img { height: auto; max-width: 100%; }
 .md-typeset .diagram-compact,
+.md-typeset .diagram-small,
 .md-typeset .diagram-standard,
 .md-typeset .diagram-wide {
   display: block;
   margin: 1rem auto 1.25rem;
 }
 .md-typeset .diagram-compact { width: min(100%, 640px); }
+.md-typeset .diagram-small { width: min(100%, 530px); }
 .md-typeset .diagram-standard { width: min(100%, 760px); }
 .md-typeset .diagram-wide { width: min(100%, 920px); }
 @media screen and (max-width: 44rem) {
   .md-typeset .diagram-compact,
+  .md-typeset .diagram-small,
   .md-typeset .diagram-standard,
   .md-typeset .diagram-wide { width: 100%; }
 }
