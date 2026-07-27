@@ -1,0 +1,41 @@
+site_name: Azure App Dev Services Overview Hub
+site_description: Overview and decision guidance for Azure application development services.
+site_url: https://cloud2br-msftlearninghub.github.io/azure-app-dev-overview/
+repo_url: https://github.com/Cloud2BR-MSFTLearningHub/Azure-App-Dev-Overview
+repo_name: Cloud2BR-MSFTLearningHub/Azure-App-Dev-Overview
+docs_dir: docs
+site_dir: site
+theme:
+  name: material
+  logo: https://avatars.githubusercontent.com/u/195347873?v=4
+  favicon: https://avatars.githubusercontent.com/u/195347873?v=4
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    scheme: default
+    primary: blue
+    accent: blue
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+extra_css:
+  - assets/css/custom.css
+extra_javascript:
+  - assets/js/logo-link.js
+  - assets/js/external-links.js
+nav:
+  - Home: index.md
+  - Overview: overview.md
+  - What to choose: what-to-choose.md

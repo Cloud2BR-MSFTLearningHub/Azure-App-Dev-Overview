@@ -1,0 +1,1 @@
+(function () { var org = "https://github.com/Cloud2BR-MSFTLearningHub"; function apply() { var logo = document.querySelector(".md-header__button.md-logo"); if (logo) { logo.href = org; logo.target = "_blank"; logo.rel = "noopener noreferrer"; } } if (document.readyState === "loading") { document.addEventListener("DOMContentLoaded", apply); } else { apply(); } })();

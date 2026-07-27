@@ -1,0 +1,70 @@
+:root {
+  --azure-navy: #003366;
+  --azure-blue: #004a99;
+  --azure-blue-hover: #003874;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--azure-navy);
+  --md-primary-fg-color--light: var(--azure-blue);
+  --md-primary-fg-color--dark: #00264d;
+  --md-accent-fg-color: var(--azure-blue);
+}
+
+.md-header__button.md-logo img { border-radius: 50%; height: 2rem; width: 2rem; }
+.md-typeset { font-size: 0.8rem; }
+.md-typeset a { color: var(--azure-blue); }
+.md-typeset a:hover { color: var(--azure-blue-hover); }
+
+/* Keep large diagrams within the content column */
+.md-typeset img { max-width: 100%; height: auto; }
+
+/* Show the last-updated date as a small grey caption under each page title */
+.md-typeset h1 + p {
+  color: #6b7280;
+  font-size: 0.7rem;
+  margin: -0.2rem 0 0.9rem;
+}
+
+/* Widen the layout so the center gets more space */
+@media screen and (min-width: 76.25em) { .md-grid { max-width: 96%; } }
+@media screen and (min-width: 90em) { .md-grid { max-width: 1800px; } }
+
+/* Left navigation: grey non-clickable section titles */
+.md-nav { font-size: 0.66rem; }
+.md-sidebar--primary .md-nav__item--section > .md-nav__link,
+.md-sidebar--primary .md-nav__item--section.md-nav__item--active > .md-nav__link,
+.md-nav--primary label.md-nav__link {
+  color: #8a94a6;
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.md-nav__item .md-nav__link[href] { color: #3d4a5c; }
+.md-nav__link[href]:hover,
+.md-nav__link--active,
+.md-nav__item--active > .md-nav__link[href] { color: var(--azure-blue); }
+
+/* Home hub cards */
+.guide-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 1rem 0 2rem;
+}
+.guide-card,
+.guide-card:visited {
+  background: #fff;
+  border: 1px solid #dbe4ee;
+  border-top: 3px solid var(--azure-blue);
+  border-radius: 8px;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  min-height: 7rem;
+  padding: 1rem 1.05rem;
+  text-decoration: none;
+}
+.guide-card:hover { box-shadow: 0 7px 18px rgba(0, 51, 102, 0.12); color: inherit; }
+@media screen and (max-width: 44rem) { .guide-grid { grid-template-columns: 1fr; } }
