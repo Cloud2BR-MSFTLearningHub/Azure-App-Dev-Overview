@@ -5,6 +5,7 @@ repo_url: https://github.com/Cloud2BR-MSFTLearningHub/Azure-App-Dev-Overview
 repo_name: Cloud2BR-MSFTLearningHub/Azure-App-Dev-Overview
 docs_dir: docs
 site_dir: site
+copyright: Copyright &copy; 2026 <a href="https://github.com/Cloud2BR-MSFTLearningHub" target="_blank" rel="noopener">Cloud2BR OSS - Learning Hub</a>
 theme:
   name: material
   logo: https://avatars.githubusercontent.com/u/195347873?v=4
@@ -35,6 +36,12 @@ extra_css:
 extra_javascript:
   - assets/js/logo-link.js
   - assets/js/external-links.js
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Cloud2BR-MSFTLearningHub
+      name: Cloud2BR OSS - Learning Hub
 nav:
   - Home: index.md
   - Overview: overview.md
