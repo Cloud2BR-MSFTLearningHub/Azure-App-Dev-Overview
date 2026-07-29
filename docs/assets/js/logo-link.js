@@ -1,1 +1,10 @@
-(function () { var org = "https://github.com/Cloud2BR-MSFTLearningHub"; function apply() { var logo = document.querySelector(".md-header__button.md-logo"); if (logo) { logo.href = org; logo.target = "_blank"; logo.rel = "noopener noreferrer"; } } if (document.readyState === "loading") { document.addEventListener("DOMContentLoaded", apply); } else { apply(); } })();
+document.addEventListener("DOMContentLoaded", () => {
+	const logo = document.querySelector("header a.md-logo");
+	const home = document.querySelector(".md-nav__title a[href]");
+
+	if (logo && home) {
+		logo.href = home.href;
+		logo.removeAttribute("target");
+		logo.removeAttribute("rel");
+	}
+});
